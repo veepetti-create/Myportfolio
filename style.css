@@ -48,14 +48,14 @@ section {
   border-radius: 8px;
   box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
-.item{
+.item , a{
   display: inline-block;
     margin-top: 5px;
     text-decoration: none;
     font-weight: bold;
     color: blue;
 }
-.item:hover {
+.item:hover, a:hover {
   text-decoration: underline;
 }
 
