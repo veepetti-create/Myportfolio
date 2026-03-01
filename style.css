@@ -6,7 +6,7 @@
 
 body {
   font-family: Arial, "Helvetica", sans-serif;
- line-height: 1.6;
+  line-height: 1.6;
   background: #f9f9f9;
   color: #333;
   padding: 20px;
@@ -46,16 +46,20 @@ section {
   max-width: 1200px;
   background: white;
   border-radius: 8px;
-  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
-.item , a{
+
+.item,
+a {
   display: inline-block;
-    margin-top: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    color: blue;
+  margin-top: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  color: blue;
 }
-.item:hover, a:hover {
+
+.item:hover,
+a:hover {
   text-decoration: underline;
 }
 
@@ -78,13 +82,14 @@ section {
   height: auto;
   border-radius: 8px;
 }
-ul{
+
+ul {
   padding-left: 40px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-p{
+p {
   padding-left: 10px;
 }
 
@@ -96,10 +101,10 @@ p{
   }
 
   .column img {
-    width: 80%;   
+    width: 80%;
     margin: 0 auto;
     display: block;
-}
+  }
 
   nav {
     justify-content: center;
@@ -120,7 +125,7 @@ p{
   }
 
   .column img {
-    width: 70%;    
+    width: 70%;
     margin: 0 auto;
     display: block;
   }
@@ -149,7 +154,8 @@ p{
     margin-top: 10px;
   }
 }
-.cell{
+
+.cell {
   width: 75px;
   height: 75px;
   border: 1px solid;
@@ -158,13 +164,17 @@ p{
   font-size: 50px;
   cursor: pointer;
 }
-#gamecontainer{
+
+#gamecontainer {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
 }
-#cellCon{
+
+#cellCon {
   display: grid;
   grid-template-columns: repeat(3, auto);
   width: 225px;
   margin: auto;
 }
+.XPlayer{color: blue;}
+.OPlayer{color: yellow;}
